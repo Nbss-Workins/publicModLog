@@ -16,12 +16,12 @@ It consist of 4 files:
 
 Installation:
 
--Install a database (I used MariaDB).
--Install a webserver, php, mysqli.
--Put the 3 .py files wherever you want, change YOUR_USER_HERE and YOUR_PASSWORD to your database user and password in dbtablesetup.py and dbfowarder.py.
--Run dbtablesetup.
--Put the content of "web"  in /var/www/html.
--Change YOUR_USER_HERE and YOUR_PASSWORD to your database user and password in index.php.
--setup a crontab for jsonparser.py, the delay between each execution depends on how frequently you want your database to be updated.
--go to your webpage and it's done.
+- Install a database (I used MariaDB).
+- Install a webserver, php, mysqli.
+- Put the 3 .py files wherever you want, change YOUR_USER_HERE and YOUR_PASSWORD to your database user and password in dbtablesetup.py and dbfowarder.py.
+- Run dbtablesetup.
+- Put the content of "web"  in /var/www/html.
+- Change YOUR_USER_HERE and YOUR_PASSWORD to your database user and password in index.php.
+- setup a crontab for jsonparser.py, the delay between each execution depends on how frequently you want your database to be updated.
+- go to your webpage and it's done.
 
